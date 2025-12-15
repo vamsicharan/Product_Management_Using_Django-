@@ -39,7 +39,7 @@ function Load_products() {
         </td>
         <td data-label="Actions">
             <div class="actions">
-                <button class="emp-edit-btn" data-id="${element.id}" onclick="Edit_product(${element.id})">
+                <button class=+"emp-edit-btn" data-id="${element.id}" onclick="Edit_product(${element.id})">
                     <i class="fas fa-edit"></i> Edit
                 </button> 
                 <button class="emp-delete-btn" data-id="${element.id}" onclick="Delete_product(${element.id})">
